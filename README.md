@@ -4,4 +4,4 @@ Simple learning app.
 
 ## Description
 
-Simple learning app for in node.js, express, mondodg
+Simple learning app for in node.js, express, mongodb

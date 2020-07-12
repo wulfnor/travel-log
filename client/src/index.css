@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.marker {
+  height: 24px;
+  width: 24px;
+  transform: translate(-50%, -100%);
+}
+.marker.yellow path {
+  fill: #F3B73E;
+}
+
+.marker.red path {
+  fill: #f05305;
+}
+
+.popup {
+  max-width: 300px;
+}
+
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
